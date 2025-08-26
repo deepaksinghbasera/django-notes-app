@@ -7,10 +7,10 @@ WSGI_APPLICATION = 'notesapp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '<rds database name>',
+        'NAME': 'mydb',
         'USER': 'admin',
-        'PASSWORD': '<rds-password>',
-        'HOST': '<write host>',
+        'PASSWORD': 'deepak77ronaldo',
+        'HOST': 'mydb.c6tsaw6q6p8t.us-east-1.rds.amazonaws.com:3306',
         'PORT': '3306',
     }
 }
