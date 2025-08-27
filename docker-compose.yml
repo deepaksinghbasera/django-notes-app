@@ -9,7 +9,8 @@ services:
       - "80:80"
     restart: always
     depends_on:
-      - django_app
+      django_app:
+        condition: service_healthy
     networks:
       - notes-app-nw
 
