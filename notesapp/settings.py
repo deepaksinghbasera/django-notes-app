@@ -1,4 +1,3 @@
-}
 
 WSGI_APPLICATION = 'notesapp.wsgi.application'
 
