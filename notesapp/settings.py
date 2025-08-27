@@ -77,7 +77,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mydb',  # db_name from Terraform
         'USER': 'admin',
-        'PASSWORD': 'deepak77ronaldo',
+        'PASSWORD': 'Deepak77ronaldo',
         'HOST': 'mydb.c6tsaw6q6p8t.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
