@@ -3,7 +3,9 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# WSGI + URL config
 WSGI_APPLICATION = 'notesapp.wsgi.application'
+ROOT_URLCONF = 'notesapp.urls'   # 👈 Added this line
 
 # Database
 DATABASES = {
