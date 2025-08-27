@@ -10,7 +10,7 @@ DATABASES = {
         'NAME': 'mydb',
         'USER': 'admin',
         'PASSWORD': 'deepak77ronaldo',
-        'HOST': 'mydb.c6tsaw6q6p8t.us-east-1.rds.amazonaws.com:3306',
+        'HOST': 'mydb.c6tsaw6q6p8t.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
